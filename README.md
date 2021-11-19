@@ -65,7 +65,7 @@ This solution requires npm and node.js to run
 
 2. Run the server in the main project folder: **node server.js**
 
-3. **cd client** -> **npm start** to run the app. Then navigate to http://localhost:3000 to view the app
+3. **cd client** -> **npm install** to download any modules needs -> **npm start** to run the app. Then navigate to http://localhost:3000 to view the app
 
 ### Developer Notes
 
