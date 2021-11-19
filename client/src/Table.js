@@ -43,6 +43,8 @@ const Table = (props) => {
             Number(a[column].toString().replace(/[^\d.-]/g, '')) > Number(b[column].toString().replace(/[^\d.-]/g, '')) ? 1 : -1
 
             );
+            
+            //Sort filtered data differently to download csv properly
             const sortedFiltered = [...filteredRows].sort((a,b)=>
             Number(a[column].toString().replace(/[^\d.-]/g, '')) > Number(b[column].toString().replace(/[^\d.-]/g, '')) ? 1 : -1
             );
@@ -54,6 +56,7 @@ const Table = (props) => {
             const sorted = [...data].sort((a,b)=>
             Number(a[column].toString().replace(/[^\d.-]/g, '')) < Number(b[column].toString().replace(/[^\d.-]/g, '')) ? 1 : -1
             );
+            
             const sortedFiltered = [...filteredRows].sort((a,b)=>
             Number(a[column].toString().replace(/[^\d.-]/g, '')) < Number(b[column].toString().replace(/[^\d.-]/g, '')) ? 1 : -1
             );
@@ -108,6 +111,7 @@ const Table = (props) => {
                    
                     {data.filter(d=>{
 
+                        //Live filter rendering done here
                         if (searchTerm === ''){
                        
                             return d
