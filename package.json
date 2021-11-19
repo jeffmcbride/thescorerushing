@@ -1,46 +1,15 @@
 {
-  "name": "thescorerushing",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@table-library/react-table-library": "^1.10.11",
-    "@testing-library/jest-dom": "^5.14.1",
-    "@testing-library/react": "^11.2.7",
-    "@testing-library/user-event": "^12.8.3",
-    "react": "^17.0.2",
-    "react-csv": "^2.0.3",
-    "react-dom": "^17.0.2",
-    "react-scripts": "4.0.3",
-    "react-table": "^7.7.0",
-    "styled-components": "^5.3.3",
-    "web-vitals": "^1.1.2"
-  },
+  "name": "Documents",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
-  "devDependencies": {
-    "favicons-webpack-plugin": "^5.0.2",
-    "webpack-pwa-manifest": "^4.3.0"
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
   }
 }
