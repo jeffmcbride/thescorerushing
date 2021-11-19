@@ -57,7 +57,7 @@ If you have any questions regarding requirements, do not hesitate to email your 
 
 This solution requires npm and node.js to run
 
-1. Clone nad open the repo
+1. Clone and open the repo
 
 **git clone https://github.com/jeffmcbride/thescorerushing**
 
